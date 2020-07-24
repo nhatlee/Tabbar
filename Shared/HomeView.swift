@@ -9,7 +9,8 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("Hello! Home view")
+        Text("Hello! Home view")//.redacted(reason: .placeholder)
+//        Text("Hello! Home view")
     }
 }
 

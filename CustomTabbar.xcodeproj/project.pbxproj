@@ -27,6 +27,18 @@
 		DC54F35124CAD00A00AA99CB /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F34F24CAD00A00AA99CB /* CameraView.swift */; };
 		DC54F35324CAD1FF00AA99CB /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F35224CAD1FF00AA99CB /* PhotoView.swift */; };
 		DC54F35424CAD1FF00AA99CB /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F35224CAD1FF00AA99CB /* PhotoView.swift */; };
+		DC54F37624CADD3E00AA99CB /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC54F37524CADD3E00AA99CB /* WidgetKit.framework */; };
+		DC54F37824CADD3E00AA99CB /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC54F37724CADD3E00AA99CB /* SwiftUI.framework */; };
+		DC54F37B24CADD3E00AA99CB /* TabbarWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F37A24CADD3E00AA99CB /* TabbarWidget.swift */; };
+		DC54F37D24CADD3F00AA99CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC54F37C24CADD3F00AA99CB /* Assets.xcassets */; };
+		DC54F38124CADD3F00AA99CB /* TabbarWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DC54F37324CADD3E00AA99CB /* TabbarWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DC54F3A524CAE01A00AA99CB /* WidgetContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F3A424CAE01A00AA99CB /* WidgetContent.swift */; };
+		DC54F3A624CAE01A00AA99CB /* WidgetContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F3A424CAE01A00AA99CB /* WidgetContent.swift */; };
+		DC54F3A924CAE0B300AA99CB /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F3A724CAE0B300AA99CB /* EntryView.swift */; };
+		DC54F3AC24CAEDAB00AA99CB /* ContentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F3AB24CAEDAB00AA99CB /* ContentRepository.swift */; };
+		DC54F3AD24CAEDAB00AA99CB /* ContentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F3AB24CAEDAB00AA99CB /* ContentRepository.swift */; };
+		DC54F3AF24CAF0AE00AA99CB /* TimelineInterval.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = DC54F3AE24CAF0AE00AA99CB /* TimelineInterval.intentdefinition */; };
+		DC54F3B024CAF0AE00AA99CB /* TimelineInterval.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = DC54F3AE24CAF0AE00AA99CB /* TimelineInterval.intentdefinition */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +56,28 @@
 			remoteGlobalIDString = DC54F31424CAC02100AA99CB;
 			remoteInfo = "CustomTabbar (macOS)";
 		};
+		DC54F37F24CADD3F00AA99CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC54F30124CAC01F00AA99CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC54F37224CADD3E00AA99CB;
+			remoteInfo = TabbarWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DC54F38224CADD3F00AA99CB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DC54F38124CADD3F00AA99CB /* TabbarWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DC54F30624CAC02000AA99CB /* CustomTabbarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarApp.swift; sourceTree = "<group>"; };
@@ -67,6 +100,17 @@
 		DC54F34C24CACFAD00AA99CB /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		DC54F34F24CAD00A00AA99CB /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		DC54F35224CAD1FF00AA99CB /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		DC54F37324CADD3E00AA99CB /* TabbarWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TabbarWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC54F37524CADD3E00AA99CB /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		DC54F37724CADD3E00AA99CB /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		DC54F37A24CADD3E00AA99CB /* TabbarWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarWidget.swift; sourceTree = "<group>"; };
+		DC54F37C24CADD3F00AA99CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC54F37E24CADD3F00AA99CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC54F3A424CAE01A00AA99CB /* WidgetContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetContent.swift; sourceTree = "<group>"; };
+		DC54F3A724CAE0B300AA99CB /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
+		DC54F3AA24CAECC500AA99CB /* CustomTabbar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CustomTabbar.entitlements; sourceTree = "<group>"; };
+		DC54F3AB24CAEDAB00AA99CB /* ContentRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRepository.swift; sourceTree = "<group>"; };
+		DC54F3AE24CAF0AE00AA99CB /* TimelineInterval.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = TimelineInterval.intentdefinition; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,17 +142,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DC54F37024CADD3E00AA99CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC54F37824CADD3E00AA99CB /* SwiftUI.framework in Frameworks */,
+				DC54F37624CADD3E00AA99CB /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		DC54F30024CAC01F00AA99CB = {
 			isa = PBXGroup;
 			children = (
+				DC54F3AA24CAECC500AA99CB /* CustomTabbar.entitlements */,
 				DC54F30524CAC01F00AA99CB /* Shared */,
 				DC54F30F24CAC02100AA99CB /* iOS */,
 				DC54F31624CAC02100AA99CB /* macOS */,
 				DC54F32024CAC02100AA99CB /* Tests iOS */,
 				DC54F32B24CAC02100AA99CB /* Tests macOS */,
+				DC54F37924CADD3E00AA99CB /* TabbarWidget */,
+				DC54F37424CADD3E00AA99CB /* Frameworks */,
 				DC54F30E24CAC02100AA99CB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -124,6 +180,7 @@
 				DC54F34C24CACFAD00AA99CB /* SettingView.swift */,
 				DC54F34F24CAD00A00AA99CB /* CameraView.swift */,
 				DC54F35224CAD1FF00AA99CB /* PhotoView.swift */,
+				DC54F3AB24CAEDAB00AA99CB /* ContentRepository.swift */,
 				DC54F30824CAC02100AA99CB /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -136,6 +193,7 @@
 				DC54F31524CAC02100AA99CB /* CustomTabbar.app */,
 				DC54F31D24CAC02100AA99CB /* Tests iOS.xctest */,
 				DC54F32824CAC02100AA99CB /* Tests macOS.xctest */,
+				DC54F37324CADD3E00AA99CB /* TabbarWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,6 +233,28 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		DC54F37424CADD3E00AA99CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC54F37524CADD3E00AA99CB /* WidgetKit.framework */,
+				DC54F37724CADD3E00AA99CB /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC54F37924CADD3E00AA99CB /* TabbarWidget */ = {
+			isa = PBXGroup;
+			children = (
+				DC54F37A24CADD3E00AA99CB /* TabbarWidget.swift */,
+				DC54F3AE24CAF0AE00AA99CB /* TimelineInterval.intentdefinition */,
+				DC54F3A424CAE01A00AA99CB /* WidgetContent.swift */,
+				DC54F3A724CAE0B300AA99CB /* EntryView.swift */,
+				DC54F37C24CADD3F00AA99CB /* Assets.xcassets */,
+				DC54F37E24CADD3F00AA99CB /* Info.plist */,
+			);
+			path = TabbarWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -185,10 +265,12 @@
 				DC54F30924CAC02100AA99CB /* Sources */,
 				DC54F30A24CAC02100AA99CB /* Frameworks */,
 				DC54F30B24CAC02100AA99CB /* Resources */,
+				DC54F38224CADD3F00AA99CB /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DC54F38024CADD3F00AA99CB /* PBXTargetDependency */,
 			);
 			name = "CustomTabbar (iOS)";
 			productName = "CustomTabbar (iOS)";
@@ -248,6 +330,23 @@
 			productReference = DC54F32824CAC02100AA99CB /* Tests macOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		DC54F37224CADD3E00AA99CB /* TabbarWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC54F38524CADD3F00AA99CB /* Build configuration list for PBXNativeTarget "TabbarWidgetExtension" */;
+			buildPhases = (
+				DC54F36F24CADD3E00AA99CB /* Sources */,
+				DC54F37024CADD3E00AA99CB /* Frameworks */,
+				DC54F37124CADD3E00AA99CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabbarWidgetExtension;
+			productName = TabbarWidgetExtension;
+			productReference = DC54F37324CADD3E00AA99CB /* TabbarWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -271,6 +370,9 @@
 						CreatedOnToolsVersion = 12.0;
 						TestTargetID = DC54F31424CAC02100AA99CB;
 					};
+					DC54F37224CADD3E00AA99CB = {
+						CreatedOnToolsVersion = 12.0;
+					};
 				};
 			};
 			buildConfigurationList = DC54F30424CAC01F00AA99CB /* Build configuration list for PBXProject "CustomTabbar" */;
@@ -290,6 +392,7 @@
 				DC54F31424CAC02100AA99CB /* CustomTabbar (macOS) */,
 				DC54F31C24CAC02100AA99CB /* Tests iOS */,
 				DC54F32724CAC02100AA99CB /* Tests macOS */,
+				DC54F37224CADD3E00AA99CB /* TabbarWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -325,6 +428,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DC54F37124CADD3E00AA99CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC54F37D24CADD3F00AA99CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -333,9 +444,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC54F34424CAC84A00AA99CB /* ViewRouter.swift in Sources */,
+				DC54F3AF24CAF0AE00AA99CB /* TimelineInterval.intentdefinition in Sources */,
 				DC54F35024CAD00A00AA99CB /* CameraView.swift in Sources */,
 				DC54F33124CAC02100AA99CB /* ContentView.swift in Sources */,
+				DC54F3A524CAE01A00AA99CB /* WidgetContent.swift in Sources */,
 				DC54F34724CACBD400AA99CB /* PlusMenu.swift in Sources */,
+				DC54F3AC24CAEDAB00AA99CB /* ContentRepository.swift in Sources */,
 				DC54F34D24CACFAD00AA99CB /* SettingView.swift in Sources */,
 				DC54F34A24CACF9500AA99CB /* HomeView.swift in Sources */,
 				DC54F32F24CAC02100AA99CB /* CustomTabbarApp.swift in Sources */,
@@ -374,6 +488,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DC54F36F24CADD3E00AA99CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC54F37B24CADD3E00AA99CB /* TabbarWidget.swift in Sources */,
+				DC54F3B024CAF0AE00AA99CB /* TimelineInterval.intentdefinition in Sources */,
+				DC54F3AD24CAEDAB00AA99CB /* ContentRepository.swift in Sources */,
+				DC54F3A624CAE01A00AA99CB /* WidgetContent.swift in Sources */,
+				DC54F3A924CAE0B300AA99CB /* EntryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -386,6 +512,11 @@
 			isa = PBXTargetDependency;
 			target = DC54F31424CAC02100AA99CB /* CustomTabbar (macOS) */;
 			targetProxy = DC54F32924CAC02100AA99CB /* PBXContainerItemProxy */;
+		};
+		DC54F38024CADD3F00AA99CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC54F37224CADD3E00AA99CB /* TabbarWidgetExtension */;
+			targetProxy = DC54F37F24CADD3F00AA99CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -504,8 +635,10 @@
 		DC54F33824CAC02100AA99CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CustomTabbar.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NA49TH345U;
 				ENABLE_PREVIEWS = YES;
@@ -526,8 +659,10 @@
 		DC54F33924CAC02100AA99CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CustomTabbar.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NA49TH345U;
 				ENABLE_PREVIEWS = YES;
@@ -683,6 +818,53 @@
 			};
 			name = Release;
 		};
+		DC54F38324CADD3F00AA99CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NA49TH345U;
+				INFOPLIST_FILE = TabbarWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VNG.CustomTabbar.TabbarWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC54F38424CADD3F00AA99CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NA49TH345U;
+				INFOPLIST_FILE = TabbarWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VNG.CustomTabbar.TabbarWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -727,6 +909,15 @@
 			buildConfigurations = (
 				DC54F34124CAC02100AA99CB /* Debug */,
 				DC54F34224CAC02100AA99CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC54F38524CADD3F00AA99CB /* Build configuration list for PBXNativeTarget "TabbarWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC54F38324CADD3F00AA99CB /* Debug */,
+				DC54F38424CADD3F00AA99CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
