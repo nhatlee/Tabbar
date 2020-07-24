@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC54F32224CAC02100AA99CB /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F32124CAC02100AA99CB /* Tests_iOS.swift */; };
+		DC54F32D24CAC02100AA99CB /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F32C24CAC02100AA99CB /* Tests_macOS.swift */; };
+		DC54F32F24CAC02100AA99CB /* CustomTabbarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F30624CAC02000AA99CB /* CustomTabbarApp.swift */; };
+		DC54F33024CAC02100AA99CB /* CustomTabbarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F30624CAC02000AA99CB /* CustomTabbarApp.swift */; };
+		DC54F33124CAC02100AA99CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F30724CAC02000AA99CB /* ContentView.swift */; };
+		DC54F33224CAC02100AA99CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F30724CAC02000AA99CB /* ContentView.swift */; };
+		DC54F33324CAC02100AA99CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC54F30824CAC02100AA99CB /* Assets.xcassets */; };
+		DC54F33424CAC02100AA99CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC54F30824CAC02100AA99CB /* Assets.xcassets */; };
+		DC54F34424CAC84A00AA99CB /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F34324CAC84A00AA99CB /* ViewRouter.swift */; };
+		DC54F34524CAC84A00AA99CB /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F34324CAC84A00AA99CB /* ViewRouter.swift */; };
+		DC54F34724CACBD400AA99CB /* PlusMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F34624CACBD400AA99CB /* PlusMenu.swift */; };
+		DC54F34824CACBD400AA99CB /* PlusMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F34624CACBD400AA99CB /* PlusMenu.swift */; };
+		DC54F34A24CACF9500AA99CB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F34924CACF9500AA99CB /* HomeView.swift */; };
+		DC54F34B24CACF9500AA99CB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F34924CACF9500AA99CB /* HomeView.swift */; };
+		DC54F34D24CACFAD00AA99CB /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F34C24CACFAD00AA99CB /* SettingView.swift */; };
+		DC54F34E24CACFAD00AA99CB /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F34C24CACFAD00AA99CB /* SettingView.swift */; };
+		DC54F35024CAD00A00AA99CB /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F34F24CAD00A00AA99CB /* CameraView.swift */; };
+		DC54F35124CAD00A00AA99CB /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F34F24CAD00A00AA99CB /* CameraView.swift */; };
+		DC54F35324CAD1FF00AA99CB /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F35224CAD1FF00AA99CB /* PhotoView.swift */; };
+		DC54F35424CAD1FF00AA99CB /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54F35224CAD1FF00AA99CB /* PhotoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC54F31E24CAC02100AA99CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC54F30124CAC01F00AA99CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC54F30C24CAC02100AA99CB;
+			remoteInfo = "CustomTabbar (iOS)";
+		};
+		DC54F32924CAC02100AA99CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC54F30124CAC01F00AA99CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC54F31424CAC02100AA99CB;
+			remoteInfo = "CustomTabbar (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC54F30624CAC02000AA99CB /* CustomTabbarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarApp.swift; sourceTree = "<group>"; };
+		DC54F30724CAC02000AA99CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC54F30824CAC02100AA99CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC54F30D24CAC02100AA99CB /* CustomTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC54F31024CAC02100AA99CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC54F31524CAC02100AA99CB /* CustomTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC54F31724CAC02100AA99CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC54F31824CAC02100AA99CB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		DC54F31D24CAC02100AA99CB /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC54F32124CAC02100AA99CB /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		DC54F32324CAC02100AA99CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC54F32824CAC02100AA99CB /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC54F32C24CAC02100AA99CB /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		DC54F32E24CAC02100AA99CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC54F34324CAC84A00AA99CB /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		DC54F34624CACBD400AA99CB /* PlusMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusMenu.swift; sourceTree = "<group>"; };
+		DC54F34924CACF9500AA99CB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DC54F34C24CACFAD00AA99CB /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		DC54F34F24CAD00A00AA99CB /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		DC54F35224CAD1FF00AA99CB /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC54F30A24CAC02100AA99CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC54F31224CAC02100AA99CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC54F31A24CAC02100AA99CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC54F32524CAC02100AA99CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC54F30024CAC01F00AA99CB = {
+			isa = PBXGroup;
+			children = (
+				DC54F30524CAC01F00AA99CB /* Shared */,
+				DC54F30F24CAC02100AA99CB /* iOS */,
+				DC54F31624CAC02100AA99CB /* macOS */,
+				DC54F32024CAC02100AA99CB /* Tests iOS */,
+				DC54F32B24CAC02100AA99CB /* Tests macOS */,
+				DC54F30E24CAC02100AA99CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC54F30524CAC01F00AA99CB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DC54F30624CAC02000AA99CB /* CustomTabbarApp.swift */,
+				DC54F30724CAC02000AA99CB /* ContentView.swift */,
+				DC54F34324CAC84A00AA99CB /* ViewRouter.swift */,
+				DC54F34624CACBD400AA99CB /* PlusMenu.swift */,
+				DC54F34924CACF9500AA99CB /* HomeView.swift */,
+				DC54F34C24CACFAD00AA99CB /* SettingView.swift */,
+				DC54F34F24CAD00A00AA99CB /* CameraView.swift */,
+				DC54F35224CAD1FF00AA99CB /* PhotoView.swift */,
+				DC54F30824CAC02100AA99CB /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DC54F30E24CAC02100AA99CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC54F30D24CAC02100AA99CB /* CustomTabbar.app */,
+				DC54F31524CAC02100AA99CB /* CustomTabbar.app */,
+				DC54F31D24CAC02100AA99CB /* Tests iOS.xctest */,
+				DC54F32824CAC02100AA99CB /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC54F30F24CAC02100AA99CB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DC54F31024CAC02100AA99CB /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		DC54F31624CAC02100AA99CB /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				DC54F31724CAC02100AA99CB /* Info.plist */,
+				DC54F31824CAC02100AA99CB /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		DC54F32024CAC02100AA99CB /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DC54F32124CAC02100AA99CB /* Tests_iOS.swift */,
+				DC54F32324CAC02100AA99CB /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		DC54F32B24CAC02100AA99CB /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				DC54F32C24CAC02100AA99CB /* Tests_macOS.swift */,
+				DC54F32E24CAC02100AA99CB /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC54F30C24CAC02100AA99CB /* CustomTabbar (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC54F33724CAC02100AA99CB /* Build configuration list for PBXNativeTarget "CustomTabbar (iOS)" */;
+			buildPhases = (
+				DC54F30924CAC02100AA99CB /* Sources */,
+				DC54F30A24CAC02100AA99CB /* Frameworks */,
+				DC54F30B24CAC02100AA99CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CustomTabbar (iOS)";
+			productName = "CustomTabbar (iOS)";
+			productReference = DC54F30D24CAC02100AA99CB /* CustomTabbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC54F31424CAC02100AA99CB /* CustomTabbar (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC54F33A24CAC02100AA99CB /* Build configuration list for PBXNativeTarget "CustomTabbar (macOS)" */;
+			buildPhases = (
+				DC54F31124CAC02100AA99CB /* Sources */,
+				DC54F31224CAC02100AA99CB /* Frameworks */,
+				DC54F31324CAC02100AA99CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CustomTabbar (macOS)";
+			productName = "CustomTabbar (macOS)";
+			productReference = DC54F31524CAC02100AA99CB /* CustomTabbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC54F31C24CAC02100AA99CB /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC54F33D24CAC02100AA99CB /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				DC54F31924CAC02100AA99CB /* Sources */,
+				DC54F31A24CAC02100AA99CB /* Frameworks */,
+				DC54F31B24CAC02100AA99CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC54F31F24CAC02100AA99CB /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = DC54F31D24CAC02100AA99CB /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DC54F32724CAC02100AA99CB /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC54F34024CAC02100AA99CB /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				DC54F32424CAC02100AA99CB /* Sources */,
+				DC54F32524CAC02100AA99CB /* Frameworks */,
+				DC54F32624CAC02100AA99CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC54F32A24CAC02100AA99CB /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = DC54F32824CAC02100AA99CB /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC54F30124CAC01F00AA99CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DC54F30C24CAC02100AA99CB = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					DC54F31424CAC02100AA99CB = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					DC54F31C24CAC02100AA99CB = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = DC54F30C24CAC02100AA99CB;
+					};
+					DC54F32724CAC02100AA99CB = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = DC54F31424CAC02100AA99CB;
+					};
+				};
+			};
+			buildConfigurationList = DC54F30424CAC01F00AA99CB /* Build configuration list for PBXProject "CustomTabbar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC54F30024CAC01F00AA99CB;
+			productRefGroup = DC54F30E24CAC02100AA99CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC54F30C24CAC02100AA99CB /* CustomTabbar (iOS) */,
+				DC54F31424CAC02100AA99CB /* CustomTabbar (macOS) */,
+				DC54F31C24CAC02100AA99CB /* Tests iOS */,
+				DC54F32724CAC02100AA99CB /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC54F30B24CAC02100AA99CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC54F33324CAC02100AA99CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC54F31324CAC02100AA99CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC54F33424CAC02100AA99CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC54F31B24CAC02100AA99CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC54F32624CAC02100AA99CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC54F30924CAC02100AA99CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC54F34424CAC84A00AA99CB /* ViewRouter.swift in Sources */,
+				DC54F35024CAD00A00AA99CB /* CameraView.swift in Sources */,
+				DC54F33124CAC02100AA99CB /* ContentView.swift in Sources */,
+				DC54F34724CACBD400AA99CB /* PlusMenu.swift in Sources */,
+				DC54F34D24CACFAD00AA99CB /* SettingView.swift in Sources */,
+				DC54F34A24CACF9500AA99CB /* HomeView.swift in Sources */,
+				DC54F32F24CAC02100AA99CB /* CustomTabbarApp.swift in Sources */,
+				DC54F35324CAD1FF00AA99CB /* PhotoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC54F31124CAC02100AA99CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC54F34524CAC84A00AA99CB /* ViewRouter.swift in Sources */,
+				DC54F35124CAD00A00AA99CB /* CameraView.swift in Sources */,
+				DC54F33224CAC02100AA99CB /* ContentView.swift in Sources */,
+				DC54F34824CACBD400AA99CB /* PlusMenu.swift in Sources */,
+				DC54F34E24CACFAD00AA99CB /* SettingView.swift in Sources */,
+				DC54F34B24CACF9500AA99CB /* HomeView.swift in Sources */,
+				DC54F33024CAC02100AA99CB /* CustomTabbarApp.swift in Sources */,
+				DC54F35424CAD1FF00AA99CB /* PhotoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC54F31924CAC02100AA99CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC54F32224CAC02100AA99CB /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC54F32424CAC02100AA99CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC54F32D24CAC02100AA99CB /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC54F31F24CAC02100AA99CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC54F30C24CAC02100AA99CB /* CustomTabbar (iOS) */;
+			targetProxy = DC54F31E24CAC02100AA99CB /* PBXContainerItemProxy */;
+		};
+		DC54F32A24CAC02100AA99CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC54F31424CAC02100AA99CB /* CustomTabbar (macOS) */;
+			targetProxy = DC54F32924CAC02100AA99CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC54F33524CAC02100AA99CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC54F33624CAC02100AA99CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DC54F33824CAC02100AA99CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NA49TH345U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VNG.CustomTabbar;
+				PRODUCT_NAME = CustomTabbar;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC54F33924CAC02100AA99CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NA49TH345U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VNG.CustomTabbar;
+				PRODUCT_NAME = CustomTabbar;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC54F33B24CAC02100AA99CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NA49TH345U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VNG.CustomTabbar;
+				PRODUCT_NAME = CustomTabbar;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DC54F33C24CAC02100AA99CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NA49TH345U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VNG.CustomTabbar;
+				PRODUCT_NAME = CustomTabbar;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DC54F33E24CAC02100AA99CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NA49TH345U;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VNG.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CustomTabbar (iOS)";
+			};
+			name = Debug;
+		};
+		DC54F33F24CAC02100AA99CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NA49TH345U;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VNG.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CustomTabbar (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC54F34124CAC02100AA99CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NA49TH345U;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "VNG.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "CustomTabbar (macOS)";
+			};
+			name = Debug;
+		};
+		DC54F34224CAC02100AA99CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NA49TH345U;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "VNG.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "CustomTabbar (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC54F30424CAC01F00AA99CB /* Build configuration list for PBXProject "CustomTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC54F33524CAC02100AA99CB /* Debug */,
+				DC54F33624CAC02100AA99CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC54F33724CAC02100AA99CB /* Build configuration list for PBXNativeTarget "CustomTabbar (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC54F33824CAC02100AA99CB /* Debug */,
+				DC54F33924CAC02100AA99CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC54F33A24CAC02100AA99CB /* Build configuration list for PBXNativeTarget "CustomTabbar (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC54F33B24CAC02100AA99CB /* Debug */,
+				DC54F33C24CAC02100AA99CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC54F33D24CAC02100AA99CB /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC54F33E24CAC02100AA99CB /* Debug */,
+				DC54F33F24CAC02100AA99CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC54F34024CAC02100AA99CB /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC54F34124CAC02100AA99CB /* Debug */,
+				DC54F34224CAC02100AA99CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC54F30124CAC01F00AA99CB /* Project object */;
+}
