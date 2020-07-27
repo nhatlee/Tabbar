@@ -17,12 +17,16 @@ struct ContentView: View {
                 presentedView()
                 Spacer()
                 if showPopup {
-                    PlusMenu(viewRouter: viewRouter, showPopup: $showPopup).offset(y: -geometry.size.height/20)
+                    PlusMenu(viewRouter: viewRouter, showPopup: $showPopup)
+                        .offset(y: -geometry.size.height/20)
+                        .animation(.easeInOut)
                 }
                 HStack {
                     image(with: "house", geometry: geometry)
                         .onTapGesture {
-                            viewRouter.currentView = .home
+                            withAnimation {
+                                viewRouter.currentView = .home
+                            }
                         }
                     ZStack {
                         Circle().foregroundColor(.white).frame(width: 75, height: 75)
@@ -35,11 +39,15 @@ struct ContentView: View {
                     }
                     .offset(y: -geometry.size.height/10/2)
                     .onTapGesture {
-                        showPopup.toggle()
+                        withAnimation {
+                            showPopup.toggle()
+                        }
                     }
                     image(with: "gear", geometry: geometry)
                         .onTapGesture {
-                            viewRouter.currentView = .setting
+                            withAnimation {
+                                viewRouter.currentView = .setting
+                            }
                         }
                 }
                 .frame(width: geometry.size.width, height: geometry.size.height/10)
